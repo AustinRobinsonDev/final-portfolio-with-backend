@@ -9,7 +9,7 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 app.use('/api/messages', require('./routes/messages'));
-
+// add text for change
 if(process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
 
