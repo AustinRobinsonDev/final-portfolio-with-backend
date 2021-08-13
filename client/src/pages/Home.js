@@ -7,7 +7,7 @@ const Home = () => {
                 <div>
                     <h1 className='largeText'>Charles Robinson</h1>
                     <h2 className='subHeader'>FULL STACK <span className='aboutMe'>Web Development</span> | <span className='aboutMe' style={{textDecoration: 'underline', textDecorationColor: 'black'}}>Programming</span></h2>
-                    <p className='aboutMe paragraph'>I am currently seeking an ENTRY-LEVEL Computer Programming/Web Development position. I attended Jefferson State's full stack workforce development program and have been furthuring my knowledge in the field since completing the course.</p> 
+                    <p className='aboutMe paragraph'>I am currently seeking an ENTRY-LEVEL Computer Programming/Web Development position. I attended Jefferson State's full stack workforce development program and have been furthuring my knowledge in the field since completion.</p> 
                     <h3 style={{ textDecoration: 'underline'}} className="aboutMe paragraph">My skills</h3>
                     <div className='grid-2'>
                         <div className="text-center">                    
@@ -35,7 +35,15 @@ const Home = () => {
                 </div>
                 <div>
                     <img className='coverPicture' src={daisy} alt="" />
-                    <p className='aboutMe text-center'>This is my hiking buddy Daisy!</p>
+                    <p className='aboutMe text-center paragraph'>This is my hiking buddy Daisy!</p>
+                    <div>
+                    <h3 className="aboutMe paragraph my-2">Social Links:</h3>
+
+                        <ul>
+                            <li className='text-center my-2'><a className='listLink' href="https://github.com/AustinRobinsonDev">Github</a></li>
+                            <li className='text-center'><a className='listLink' href="https://www.linkedin.com/in/charles-robinson-88732212b/">LinkedIn</a></li>
+                        </ul>
+                    </div>
                 </div>
         </div>
     )
