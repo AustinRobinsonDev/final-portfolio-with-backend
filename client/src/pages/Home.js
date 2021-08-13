@@ -6,7 +6,7 @@ const Home = () => {
         <div className='grid-2'>
                 <div>
                     <h1 className='largeText'>Charles Robinson</h1>
-                    <h2 className='subHeader'>FULL STACK <span className='aboutMe'>Web Development</span> | <span className='aboutMe'>Programming</span></h2>
+                    <h2 className='subHeader'>FULL STACK <span className='aboutMe'>Web Development</span> | <span className='aboutMe' style={{textDecoration: 'underline', textDecorationColor: 'black'}}>Programming</span></h2>
                     <p className='aboutMe paragraph'>I am currently seeking an ENTRY-LEVEL Computer Programming/Web Development position. I attended Jefferson State's full stack workforce development program and have been furthuring my knowledge in the field since completing the course.</p> 
                     <h3 style={{ textDecoration: 'underline'}} className="aboutMe paragraph">My skills</h3>
                     <div className='grid-2'>
