@@ -1,29 +1,20 @@
-
-  .menu {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    text-transform: none;
-    transform: translateZ(30px);
-    transform-style: preserve-3d;
+  .listLink{
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
   }
+
   
   .largeText {
     font-size: 55px;
     color: black;
   }
   
-  .menu li a:link {
-    text-decoration: none;
-    text-transform: none;
-    color: aqua;
-    font-size: 50px;
-    margin: 0;
+
+  .aboutMe {
+    margin: 30px 0 10px 0;
+    color: white;
   }
-.aboutMe {
-  margin: 30px 0 10px 0;
-  color: white;
-}
 
   .subHeader {
     color: black;
