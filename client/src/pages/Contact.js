@@ -51,7 +51,7 @@ const Contact = () => {
                     <input type="email" onChange={onChange} name='email' value={email} placeholder='Email Address...' className='input-width' />
                     <h3 className='aboutMe'>Message</h3>
                     <div className='custom-text-area'>
-                    <TextArea alignSelf='center' flexGrow='2' maxWidth='500px' justifySelf='center' name='messages' onInput={onChange} placeholder='Type your message here...' />
+                    <TextArea alignSelf='center' height='200px' flexGrow='2' maxWidth='500px' justifySelf='center' name='messages' value={messages} onInput={onChange} placeholder='Type your message here...' />
                     </div>
                     <input type="submit" className='btn form-submit' />
                 </form>
