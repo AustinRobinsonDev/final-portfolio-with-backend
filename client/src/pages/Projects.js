@@ -1,7 +1,8 @@
 import React from 'react';
 import gitFinder from '../git-finder-project.png';
 import TwoX from '../2xdemo.gif';
-import wpKeeper from '../wpkeeper.png'
+import wpKeeper from '../wpkeeper.png';
+import SliderImg from '../sliderImg.png'
 
 const Projects = () => {
 
@@ -32,16 +33,16 @@ const Projects = () => {
                     style={{width: '250px'}} 
                 />
                 <h3 className='aboutMe'>waypoint keeper</h3>
-                <button disabled className='btn'><a style={{color: 'black'}} href="google.com">More</a></button>   
+                <button className='btn'><a style={{color: 'black'}} href="https://stormy-savannah-74179.herokuapp.com/login">Visit</a></button>   
             </div>
             <div className="card text-center grid-item">
-                <img src={gitFinder}
+                <img src={SliderImg}
                     alt=""
                     className="round-img" 
                     style={{width: '250px'}} 
                 />
                 <h3 className='aboutMe'>full screen slider</h3>
-                <button disabled className='btn'><a style={{color: 'black'}} href="google.com">More</a></button>   
+                <button disabled className='btn'><a style={{color: 'black'}} href="https://github.com/AustinRobinsonDev/simpleSlider">Visit Github</a></button>   
             </div>
         </div>
     )
