@@ -10,7 +10,7 @@ const Home = () => {
                     <p className='aboutMe paragraph'>I am currently seeking an ENTRY-LEVEL Computer Programming/Web Development position. I attended Jefferson State's full stack workforce development program and have been furthuring my knowledge in the field since completion.</p> 
                     <h3 style={{ textDecoration: 'underline'}} className="aboutMe paragraph">My skills</h3>
                     <div className='grid-2'>
-                        <div className="text-center">                    
+                        <div className="text-center text-black">                    
                             <ul>
                                 <li className='aboutMe paragraph'>HTML5</li>
                                 <li className='aboutMe paragraph'>CSS</li>
