@@ -41,8 +41,8 @@ const Home = () => {
 
                         <ul>
                             <li className='text-center my-2'><a className='listLink' href="https://github.com/AustinRobinsonDev">Github</a></li>
-                            <li className='text-center'><a className='listLink' href="https://www.linkedin.com/in/charles-robinson-88732212b/">LinkedIn</a></li>
-                            <li className='text-center'><a className='listLink' href="https://www.facebook.com/Austin.Robinsonn">Facebook</a></li>
+                            <li className='text-center my-2'><a className='listLink' href="https://www.linkedin.com/in/charles-robinson-88732212b/">LinkedIn</a></li>
+                            <li className='text-center my-2'><a className='listLink' href="https://www.facebook.com/Austin.Robinsonn">Facebook</a></li>
 
                         </ul>
                     </div>
