@@ -10,7 +10,7 @@ const Home = () => {
                     <p className='aboutMe paragraph'>I am currently seeking an ENTRY-LEVEL Computer Programming/Web Development position. I attended Jefferson State's full stack workforce development program and have been furthuring my knowledge in the field since completion.</p> 
                     <h3 style={{ textDecoration: 'underline'}} className="aboutMe paragraph">My skills</h3>
                     <div className='grid-2'>
-                        <div className="text-center">                    
+                        <div className="text-center text-black">                    
                             <ul>
                                 <li className='aboutMe paragraph'>HTML5</li>
                                 <li className='aboutMe paragraph'>CSS</li>
@@ -40,8 +40,10 @@ const Home = () => {
                     <h3 className="aboutMe paragraph my-2">Social Links:</h3>
 
                         <ul>
-                            <li className='text-center my-2'><a className='listLink' href="https://github.com/AustinRobinsonDev">Github</a></li>
-                            <li className='text-center'><a className='listLink' href="https://www.linkedin.com/in/charles-robinson-88732212b/">LinkedIn</a></li>
+                            <li className='text-center my-2 '><a className='listLink aboutMe' href="https://github.com/AustinRobinsonDev">Github</a></li>
+                            <li className='text-center my-2'><a className='listLink aboutMe' href="https://www.linkedin.com/in/charles-robinson-88732212b/">LinkedIn</a></li>
+                            <li className='text-center my-2'><a className='listLink aboutMe' href="https://www.facebook.com/Austin.Robinsonn">Facebook</a></li>
+
                         </ul>
                     </div>
                 </div>

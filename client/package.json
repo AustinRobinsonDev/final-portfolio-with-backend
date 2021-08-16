@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@adobe/react-spectrum": "^3.13.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -16,7 +17,6 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-tilt": "^0.1.4",
-    "tilt.js": "^1.2.1",
     "web-vitals": "^1.0.1"
   },
   "main": "server.js",
