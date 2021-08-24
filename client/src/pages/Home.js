@@ -26,6 +26,7 @@ const Home = () => {
                                 <li className='aboutMe paragraph'>MySQL</li>
                                 <li className='aboutMe paragraph'>MongoDB</li>
                                 <li className='aboutMe paragraph'>Source Tree</li>
+                                <li className='aboutMe paragraph'>Wordpress</li>
                                 <li className='aboutMe paragraph'>Basic Algorithms and Data Structures</li>
                             </ul>
                         </div>
