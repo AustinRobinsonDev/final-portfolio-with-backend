@@ -62,7 +62,7 @@ const Projects = () => {
                     style={{width: '250px', maxHeight: '163px', objectFit: 'cover'}} 
                 />
                 <h3 className='aboutMe'>weather app</h3>
-                <button disabled className='btn'><a style={{color: 'black'}} href="https://github.com/AustinRobinsonDev/simpleSlider">Visit Github</a></button>   
+                <button disabled className='btn'><a style={{color: 'black'}} href="https://github.com/AustinRobinsonDev/weather-app-react">Visit Github</a></button>   
             </div>
         </div>
     )
