@@ -1,10 +1,10 @@
 import React from 'react';
-import gitFinder from '../git-finder-project.png';
-import TwoX from '../2xdemo.gif';
-import wpKeeper from '../wpkeeper.png';
-import SliderImg from '../sliderImg.png';
-import services from '../services.png';
-import Weather from '../weather-app.jpeg'
+import gitFinder from '../assets/git-finder-project.png';
+import TwoX from '../assets/2xdemo.gif';
+import wpKeeper from '../assets/wpkeeper.png';
+import SliderImg from '../assets/sliderImg.png';
+import services from '../assets/services.png';
+import Weather from '../assets/weather-app.jpeg'
 
 const Projects = () => {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import daisy from '../dz.jpg'
+import daisy from '../assets/dz.jpg'
 
 const Home = () => {
     return (
