@@ -1,15 +1,28 @@
 import React from 'react';
+import ProjectModal from './ProjectModal';
 import gitFinder from '../assets/git-finder-project.png';
 import TwoX from '../assets/2xdemo.gif';
 import wpKeeper from '../assets/wpkeeper.png';
 import SliderImg from '../assets/sliderImg.png';
 import services from '../assets/services.png';
-import Weather from '../assets/weather-app.jpeg'
+import Weather from '../assets/weather-app.jpeg';
 
 const Projects = () => {
 
+    const [open, setOpen] = React.useState(false);
+
+    const handleClickOpen = () => {
+      setOpen(true);
+    };
+  
+    const handleClose = () => {
+      setOpen(false);
+    };
+
     return (
+        
         <div className='grid-3'>
+        <ProjectModal />
             <div className="card text-center grid-item">
                 <img src={gitFinder}
                     alt=""
@@ -26,7 +39,8 @@ const Projects = () => {
                     style={{width: '250px', height: '160px'}} 
                 />
                 <h3 className='aboutMe'>2X (Dapp)</h3>
-                <button className='btn'><a style={{color: 'black'}} href="https://jaredborders.github.io/2X/">Visit</a></button>   
+                <button className='btn'><a style={{color: 'black'}} href="https://jaredborders.github.io/2X/">Visit</a></button>
+                <button className='btn'><a style={{color: 'black'}} href="https://jaredborders.github.io/2X/">Details</a></button>   
             </div>
             <div className="card text-center grid-item">
                 <img src={wpKeeper}
