@@ -17,7 +17,7 @@ const MessageState = props => {
     };
     const [state, dispatch] = useReducer(messageReducer, initialState);
 
-    //add waypoint
+    //add message
     const addMessage = async fullMessage => {
         const config = {
             headers: {
